@@ -1,0 +1,15 @@
+pyside6
+python-dotenv
+telethon
+pylint
+setuptools
+selenium
+pytest
+pytest-qt
+webdriver-manager
+peewee
+coverage
+qrcode
+cryptography
+pytz
+pillow

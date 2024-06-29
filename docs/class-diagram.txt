@@ -1,0 +1,62 @@
+@startuml
+class Instagram{
+login(username, password): saved in the Selenium Userdata
+sendMessage(msg, recipient)
+retrieveMessage(partner)
+get_all_active_chats(): Returns tuple list of Name and access link
+}
+class WhatsApp{
+login(username, password): Username and password are not \nneeded as the login is done via QR-Code, Data also saved in Userdata
+sendMessage(msg, recipient)
+retrieveMessage(partner)
+get_all_active_chats(): Returns tuple list of Name
+}
+class Telegram{
+login(phonenumber, password): saved in the Telethon Session file,\nalso needs the OTP-challenge from Telegram
+sendMessage(msg, recipient)
+retrieveMessage(partner)
+get_all_active_chats(): Returns tuple list of Name and access token
+}
+class Discord{
+login(username, password): Username and password are not\nneeded as the login is done via QR-Code, Data also saved in Userdata
+sendMessage(msg, recipient)
+retrieveMessage(partner)
+get_all_active_chats(): Returns tuple list of Name and access link
+}
+ 
+interface MessagingClient{
+login(username, password)
+sendMessage(msg, recipient)
+retrieveMessage(partner)
+get_all_active_chats(): Returns tuple list of Name and access token
+}
+ 
+class GUI{
+main
+}
+class ChatWidget{
+}
+class Chat{}
+class ContactList{
+List[] Contact
+}
+class Contact{
+List[] MessagingClient
+List[] ChatWidget
+}
+class ClientLogin{}
+class LoginWidget{}
+ 
+GUI --> ChatWidget
+GUI --> LoginWidget
+GUI --> ClientLogin
+ContactList --> Contact
+ChatWidget --> Chat
+GUI --> ContactList
+Contact --> MessagingClient
+ 
+Instagram --> MessagingClient: implements
+WhatsApp --> MessagingClient: implements
+Telegram --> MessagingClient: implements
+Discord --> MessagingClient: implements
+@enduml

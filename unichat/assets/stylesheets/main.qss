@@ -1,0 +1,49 @@
+#MessageBubble[status="whatsapp"] {
+    background-color: #71F071;
+    border-radius: 8px;
+}
+
+#MessageLabel[status="whatsapp"] {
+	background-color: #71F071;
+}
+
+#MessageBubble[status="instagram"] {
+    background-color: #FA7575;
+    border-radius: 8px;
+}
+
+#MessageLabel[status="instagram"] {
+	background-color: #FA7575;
+}
+
+#MessageBubble[status="telegram"] {
+    background-color: #ADD8E6;
+    border-radius: 8px;
+}
+
+#MessageLabel[status="telegram"] {
+	background-color: #ADD8E6;
+}
+
+#MessageBubble[status="contact"] {
+    background-color: #D3D3D3;
+    border-radius: 8px;
+}
+
+#MessageLabel[status="contact"] {
+	background-color: #D3D3D3;
+}
+
+#DateBubble {
+	background-color: grey;
+    border-radius: 8px;
+}
+
+#DateLabel {
+	background-color: grey;
+}
+
+QComboBox QAbstractItemView {
+    min-width: 200px;
+}
+

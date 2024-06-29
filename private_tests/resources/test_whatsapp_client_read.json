@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": "2024-04-28T19:18:00+00:00",
+        "sender": "Aatha",
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus lacinia porta. Donec sit amet porttitor mi. Nulla in tempus justo, lacinia faucibus enim. Praesent ac pulvinar elit. Vivamus euismod suscipit aliquam. Pellentesque non neque at leo venenatis molestie. Proin id placerat lorem. Integer iaculis ligula velit, non sagittis nunc vulputate et."
+    },
+    {
+        "timestamp": "2024-04-28T19:18:00+00:00",
+        "sender": "Aatha",
+        "message": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean semper augue quis luctus venenatis. Phasellus lobortis ipsum velit, sagittis fringilla nulla placerat ac. Sed in ex nunc. Phasellus mattis ante nunc, vel malesuada erat eleifend id. Aliquam nec iaculis est."
+    },
+    {
+        "timestamp": "2024-04-28T19:19:00+00:00",
+        "sender": "Aatha",
+        "message": "Cras et ligula vitae velit ornare consequat eget accumsan diam."
+    },
+    {
+        "timestamp": "2024-04-28T19:19:00+00:00",
+        "sender": "Aatha",
+        "message": "Cras nec iaculis dolor, ornare luctus purus."
+    }
+]
